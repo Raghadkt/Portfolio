@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project — Raghad Khalid</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html#home" class="nav-brand"><span class="chip"></span> Raghad Khalid</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#projects">All Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div id="projectDetail" class="detail-hero">
+  <div class="container">
+    <a href="index.html#projects" class="back-link">← Back to Projects</a>
+    <div class="section-label" id="detailCategory"></div>
+    <h1 class="detail-title" id="detailTitle"></h1>
+
+    <div class="detail-cover" id="detailCover"></div>
+
+    <div class="detail-block">
+      <h2>Tools & Components Used</h2>
+      <div class="tool-tags" id="detailTools"></div>
+    </div>
+
+    <div class="detail-block">
+      <h2>Problem</h2>
+      <p id="detailProblem"></p>
+    </div>
+
+    <div class="detail-block">
+      <h2>Idea</h2>
+      <p id="detailIdea"></p>
+    </div>
+
+    <div class="detail-block">
+      <h2>How It Works</h2>
+      <p id="detailHow"></p>
+    </div>
+
+    <div class="detail-block">
+      <h2>Components</h2>
+      <ul id="detailComponents"></ul>
+    </div>
+
+    <div class="detail-block">
+      <h2>My Role</h2>
+      <p id="detailRole"></p>
+    </div>
+
+    <div class="detail-block">
+      <h2>Results</h2>
+      <p id="detailResults"></p>
+    </div>
+
+    <div class="detail-block" id="photosBlock">
+      <h2>Project Photos</h2>
+      <div class="photo-grid" id="detailPhotos"></div>
+    </div>
+  </div>
+</div>
+
+<div id="projectNotFound" class="not-found container" style="display:none;">
+  <h1>Project not found</h1>
+  <p><a href="index.html#projects" class="btn btn-outline" style="margin-top:20px;">← Back to Projects</a></p>
+</div>
+
+<footer>
+  <div class="container">
+    <p class="copy">© 2026 Raghad Khalid</p>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/project-detail.js"></script>
+</body>
+</html>
