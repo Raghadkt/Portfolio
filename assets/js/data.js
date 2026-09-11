@@ -56,10 +56,10 @@ const PROJECTS = [
 --------------------------------------------------------- */
 const CERTIFICATES = [
   {
-    title: "Certificate Name",
-    issuer: "Issuing Organization",
+    title: "Creative Engineering With Arduino",
+    issuer: "IEEE KFU Student Branch",
     year: "2025",
-    file: "assets/images/certificates/certificate-1.pdf"
+    file: "assets/images/certificates/arduino-creative-engineering.pdf"
   }
 ];
 
