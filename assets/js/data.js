@@ -68,10 +68,10 @@ const CERTIFICATES = [
 --------------------------------------------------------- */
 const EXPERIENCE = [
   {
-    date: "Summer 2025",
+    date: "2027",
     title: "Cooperative Training",
-    org: "Organization Name",
-    description: "Brief description of the training, tasks, and skills gained."
+    org: "Aspiring to join a company in electronics / renewable energy",
+    description: "Looking forward to completing my cooperative training after graduating in January 2027, and applying my academic knowledge in a real work environment."
   }
 ];
 
