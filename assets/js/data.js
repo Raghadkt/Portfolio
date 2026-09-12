@@ -12,24 +12,24 @@
    details: shown on the project detail page
 --------------------------------------------------------- */
 const PROJECTS = [
-  {
-    id: "soil-moisture-indicator",
-    title: "Soil Moisture Indicator",
-    category: "electronics",
-    categoryLabel: "Electronics",
-    image: "assets/images/projects/soil-moisture.jpg",
-    shortDesc: "A device that measures soil moisture and signals when watering is needed, using a moisture sensor and a microcontroller.",
-    tools: ["Arduino", "C/C++", "Sensors", "Circuit Design"],
-    details: {
-      problem: "Difficulty knowing the right time to water plants, leading to wasted water or dried-out soil.",
-      idea: "Design a simple circuit that reads the soil moisture level and displays the result directly (digital readout / light indicator).",
-      howItWorks: "The moisture sensor measures the electrical resistance of the soil, then the Arduino converts the reading into an understandable value and displays it, activating an indicator when moisture drops below a certain threshold.",
-      components: ["Arduino Uno", "Soil Moisture Sensor", "LEDs", "Resistors", "Breadboard", "Jumper Wires"],
-      myRole: "Designed the circuit, wrote the code, tested and calibrated the sensor.",
-      results: "A device that works with acceptable accuracy to give a clear alert when the soil dries out, and can be extended later with an automatic irrigation system.",
-      photos: []
-    }
-  },
+{
+  id: "fiber-optic-vibration-sensor",
+  title: "Optical Fiber Vibration Measurement System (Ongoing)",
+  category: "arduino",
+  categoryLabel: "Arduino",
+  image: "assets/images/projects/vibration-sensor.jpg",
+  shortDesc: "My senior design project — a non-contact vibration measurement system using optical fibers, currently in progress.",
+  tools: ["Arduino", "MATLAB", "Optical Sensing", "Signal Processing"],
+  details: {
+    problem: "Traditional vibration sensors rely on physical contact and are affected by electrical interference, making them unreliable in many industrial and structural monitoring settings.",
+    idea: "Build a non-contact vibration sensor using optical fibers and light intensity changes instead of electrical contact, offering a low-cost alternative for structural health monitoring.",
+    howItWorks: "A laser diode sends light through an optical fiber toward a small mirror mounted on a vibrating surface. As the surface vibrates, the reflected light intensity changes, which a photodiode detects and converts into a signal. An Arduino reads this signal and sends it to MATLAB, where it's analyzed to extract the vibration's frequency and amplitude in real time.",
+    components: ["650nm Laser Diode", "PMMA Optical Fibers", "OPT101 Photodiode", "Arduino Nano ESP32", "MATLAB (FFT Analysis)"],
+    myRole: "Working as part of a 3-member team on the design, mathematical modeling, and report writing, under the supervision of Dr. Mohammed Alshakhs.",
+    results: "Currently in the implementation and testing phase — full results will be added once the project is complete.",
+    photos: []
+  }
+},
   {
     id: "matlab-sample-project",
     title: "MATLAB Signal Analysis",
