@@ -18,7 +18,7 @@ const PROJECTS = [
   category: "arduino",
   categoryLabel: "Arduino",
   image: "assets/images/projects/vibration-sensor-3d-design.png",
-  shortDesc: "My graduation project (EE 495) — a non-contact vibration measurement system using optical fibers, currently in progress.",
+  shortDesc: "My graduation project (EE 495) a non-contact vibration measurement system using optical fibers, currently in progress.",
   tools: ["Arduino", "MATLAB", "Optical Sensing", "Signal Processing"],
   details: {
     problem: "Traditional vibration sensors rely on physical contact and are affected by electrical interference, making them unreliable in many industrial and structural monitoring settings.",
