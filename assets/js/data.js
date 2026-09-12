@@ -14,19 +14,19 @@
 const PROJECTS = [
 {
   id: "fiber-optic-vibration-sensor",
-  title: "Optical Fiber Vibration Measurement System (Ongoing)",
+  title: "Fiber Optic Vibration Sensor — Senior Design Project",
   category: "arduino",
   categoryLabel: "Arduino",
   image: "assets/images/projects/vibration-sensor-3d-design.png",
-  shortDesc: "My senior design project a non-contact vibration measurement system using optical fibers, currently in progress.",
+  shortDesc: "My graduation project (EE 495) — a non-contact vibration measurement system using optical fibers, currently in progress.",
   tools: ["Arduino", "MATLAB", "Optical Sensing", "Signal Processing"],
   details: {
     problem: "Traditional vibration sensors rely on physical contact and are affected by electrical interference, making them unreliable in many industrial and structural monitoring settings.",
     idea: "Build a non-contact vibration sensor using optical fibers and light intensity changes instead of electrical contact, offering a low-cost alternative for structural health monitoring.",
-    howItWorks: "A laser diode sends light through an optical fiber toward a small mirror mounted on a vibrating surface. As the surface vibrates, the reflected light intensity changes, which a photodiode detects and converts into a signal. An Arduino reads this signal and sends it to MATLAB, where it's analyzed to extract the vibration's frequency and amplitude in real time.",
+    howItWorks: "A laser diode sends light through an optical fiber toward a small mirror mounted on a vibrating surface. As the surface vibrates, the reflected light intensity changes, which a photodiode detects and converts into a signal. An Arduino reads this signal and sends it to MATLAB, where it is analyzed to extract the vibration's frequency and amplitude in real time.",
     components: ["650nm Laser Diode", "PMMA Optical Fibers", "OPT101 Photodiode", "Arduino Nano ESP32", "MATLAB (FFT Analysis)"],
-    myRole: "Working as part of a 3-member team on the design, mathematical modeling, and report writing, under the supervision of Dr. Mohammed Alshakhs.",
-    results: "Currently in the implementation and testing phase full results will be added once the project is complete.",
+    myRole: "This is my senior design (graduation) project for the Electrical Engineering program at King Faisal University, expected to be completed by January 2027. Working as part of a 3-member team on the design, mathematical modeling, and report writing, under the supervision of Dr. Mohammed Alshakhs.",
+    results: "Currently in the implementation and testing phase; full results will be added once the project is complete.",
     photos: []
   }
 },
