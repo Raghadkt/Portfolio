@@ -17,7 +17,7 @@ const PROJECTS = [
   title: "Optical Fiber Vibration Measurement System (Ongoing)",
   category: "arduino",
   categoryLabel: "Arduino",
-  image: "assets/images/projects/vibration-sensor.jpg",
+  image: "assets/images/projects/vibration-sensor-3d-design.png",
   shortDesc: "My senior design project a non-contact vibration measurement system using optical fibers, currently in progress.",
   tools: ["Arduino", "MATLAB", "Optical Sensing", "Signal Processing"],
   details: {
