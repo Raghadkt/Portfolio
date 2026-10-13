@@ -61,7 +61,14 @@ const CERTIFICATES = [
     issuer: "IEEE KFU Student Branch",
     year: "2025",
     file: "assets/images/certificates/arduino-creative-engineering.pdf"
+  },
+     {
+    title: "Introduction to Renewable Energy: How It Is Changing the World?",
+    issuer: "ASME KFU Student Section",
+    year: "2025",
+    file: "assets/images/certificates/renewable-energy.pdf"
   }
+
 ];
 
 /* ---------------------------------------------------------
